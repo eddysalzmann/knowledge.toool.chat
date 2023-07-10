@@ -1,4 +1,4 @@
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
     var scriptTag = document.currentScript;
     var projectId = scriptTag.getAttribute('id');
 
@@ -27,4 +27,4 @@
     });
     document.body.appendChild(chatButton);
     document.body.appendChild(chatIframe);
-})();
+});
