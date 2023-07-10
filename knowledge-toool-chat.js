@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var scriptTag = document.currentScript;
+
+    var scriptTag = document.querySelector('script[data-name="knowledge-toool-chat"]');
     var projectId = scriptTag.getAttribute('id');
 
     var chatButton = document.createElement('button');
